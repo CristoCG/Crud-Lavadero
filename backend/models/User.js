@@ -27,7 +27,7 @@ userSchema.pre("save", async function(next) {
         next();
     } catch (error) {
         console.log(error);
-        throw new Error("Error al codificar la contraseña");
+        throw new Error("Error al codificar la contraseñ a");
     }
 });
 
